@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  height: 100vh;
+  font-size: 16px;
+}
+
+.wrapper {
+  background-color: #06970d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 800px;
+  height: 700px;
+  border: 2px solid rgba(0, 0, 0, 0);
+  margin: auto;
+  margin-top: 10px;
+}
+
+.container {
+  width: 60vmin;
+  height: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.button-option {
+  height: 20vmin;
+  width: 20vmin;
+  border: none;
+  font-size: 12vmin;
+  color: #000000;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+#btn-option-one{
+  border-right: 7.5px solid black;
+  border-bottom: 7.5px solid black;
+}
+
+#btn-option-two{
+  border-left: 7.5px solid black;
+  border-right: 7.5px solid black;
+  border-bottom: 7.5px solid black;
+}
+
+#btn-option-three{
+  border-left: 7.5px solid black;
+  border-bottom: 7.5px solid black;
+}
+
+#btn-option-four{
+  border-top: 7.5px solid black;
+  border-right: 7.5px solid black;
+  border-bottom: 7.5px solid black;
+}
+
+#btn-option-five{
+  border-top: 7.5px solid black;
+  border-left: 7.5px solid black;
+  border-right: 7.5px solid black;
+  border-bottom: 7.5px solid black;
+}
+
+#btn-option-six{
+  border-top: 7.5px solid black;
+  border-left: 7.5px solid black;
+  border-bottom: 7.5px solid black;
+}
+
+#btn-option-seven{
+  border-right: 7.5px solid black;
+  border-top: 7.5px solid black;
+}
+
+#btn-option-eight{
+  border-top: 7.5px solid black;
+  border-left: 7.5px solid black;
+  border-right: 7.5px solid black;
+}
+
+#btn-option-nine{
+  border-left: 7.5px solid black;
+  border-top: 7.5px solid black;
+}
+
+#restart {
+  font-size: 1.3em;
+  padding: 1em;
+  border-radius: 0.5em;
+  background-color: #0a0027;
+  color: #ffffff;
+  border: none;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#restart:hover {
+  font-size: 1.3em;
+  padding: 1em;
+  border-radius: 0.5em;
+  background-color: white;
+  border: 2px solid black;
+  color: #0a0027;
+  margin: auto;
+}
+
+.popup {
+  background: linear-gradient(135deg, #ffee00, #06970d);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  z-index: 2;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
+  font-size: 12vmin;
+  margin:auto;
+}
+
+#novo-jogo {
+  font-size: 0.6em;
+  padding: 0.2em 1em;
+  background-color: #0a0027;
+  color: #ffffff;
+  border-radius: 0.2em;
+  border: none;
+}
+
+#novo-jogo:hover {
+  font-size: 0.6em;
+  padding: 0.2em 1em;
+  background-color: #ffffff;
+  color: #0a0027;
+  border-radius: 0.2em;
+  border: none;
+}
+
+.popup.hide {
+  display: none;
+}
